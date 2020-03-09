@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.box{
+
+  background-color: #d9d9d9;
+  color: black;
+  padding: 10px;
+  font-size: 13px;
+  font-family: georgia,garamond,serif;
+  width: 150px;
+  border: 10px #5e420c;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+
+
+div-first{
+  display: inline;
+}
+
+.bg-img {
+  /* The image used */
+ background-image: url("login_back.jpg");
+
+  /* Control the height of the image */
+  height: 100%;
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  margin: 225px;
+  font-family: georgia,garamond,serif;
+  border-style: outset;
+  border-width: 5px;
+  margin-right: 500px;
+  margin-left: 600px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+ 
+/* Set a style for the submit button */
+.btn {
+  margin-top: 10px;
+  border-style: outset;
+  border-width: 5px;
+  background-color: #5e420c;
+  color: white;
+  margin-bottom: 5px;
+  padding: 16px 40px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
